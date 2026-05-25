@@ -1,0 +1,80 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #141e30, #243b55);
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+}
+
+/* Heading Style */
+h3{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #00e6e6;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+/* Chat Card */
+.chat{
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    border-radius: 18px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    transition: 0.3s ease;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+/* Hover Effect */
+.chat:hover{
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.5);
+}
+
+/* From & To Text */
+.chat p{
+    margin: 8px 0;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+/* Message Box */
+.msg{
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    padding: 15px;
+    border-radius: 12px;
+    margin: 15px 0;
+    box-shadow: inset 0 0 10px rgba(255,255,255,0.2);
+}
+
+.msg p{
+    margin: 0;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* Horizontal Line */
+hr{
+    border: none;
+    height: 1px;
+    background: rgba(255,255,255,0.2);
+    margin-top: 15px;
+}
+
+/* Responsive Design */
+@media(max-width: 768px){
+    .chat{
+        width: 95%;
+    }
+
+    h3{
+        font-size: 28px;
+    }
+}
