@@ -33,7 +33,7 @@ let allChats = [
   {
     from: "danish",
     to: "awais",
-    msg: "Hello How i can get a gpa in exam",
+    msg: "Hello How i can get a gpa in exam I am aman from south waziristan wana don't forget me in your prayer b/c the satiatuation is most bad in south waziristan wana ",
     created_at: new Date(),
   },
   {
