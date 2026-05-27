@@ -10,7 +10,7 @@
     <h3>Edit your Chat: <%= chat._id  %></h3>
     <p>This chat was sent from <h4><%= chat.from  %></h4> to <h4><%= chat.to  %></h4></p>
 
-    <form >
+    <form method="POST" action="/chats/<%= chat._id  %>?_method=PUT" >
         <textarea name="msg"><%= chat.msg  %></textarea>
         <button>Edit</button>
     </form>
